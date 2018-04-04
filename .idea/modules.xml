@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/myjcenterlib/myjcenterlib.iml" filepath="$PROJECT_DIR$/myjcenterlib/myjcenterlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resume-file-upload/resume-file-upload.iml" filepath="$PROJECT_DIR$/resume-file-upload/resume-file-upload.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/umesh-jcenter-androidlib.iml" filepath="$PROJECT_DIR$/.idea/umesh-jcenter-androidlib.iml" />
     </modules>
   </component>

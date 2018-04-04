@@ -45,21 +45,21 @@ artifacts {
     archives sourcesJar
 }
 
-group = 'com.app.mylib'
-version = '1.0.0'
+group = 'com.app.resume'
+version = '1.0.1'
 
 install {
     repositories.mavenInstaller {
         pom.project {
             name 'Umesh Kumar'
-            description 'A library for finding out whether someone is on the naughty list or the nice list'
+            description 'A library for finding out whether someone is on the list or the nice list'
             url 'https://github.com/bsaumesh/umesh-jcenter-androidlib'
             inceptionYear '2018'
 
             packaging 'aar'
-            groupId 'com.app.myjcenterlib'
-            artifactId 'myjcenterlib'
-            version '1.0.0'
+            groupId 'com.app.resume'
+            artifactId 'resume-file-upload'
+            version '1.0.1'
 
             licenses {
                 license {
@@ -95,16 +95,17 @@ bintray {
     configurations = ['archives']
     pkg {
         repo = 'maven'
-        name = 'myjcenterlib'
+        name = 'resume-file-upload'
         userOrg = 'bsaumesh'
         licenses = ['MIT']
         vcsUrl = 'https://github.com/bsaumesh/umesh-jcenter-androidlib.git'
         publish = true
         version {
-            name = '1.0.0'
-            desc = 'this is updated version 1.0.0'
+            name = '1.0.1'
+            desc = 'this is updated version 1.0.1'
             released = new Date()
-            vcsTag = 'v1.0.0'
+            vcsTag = 'v1.0.1'
         }
     }
 }
+
